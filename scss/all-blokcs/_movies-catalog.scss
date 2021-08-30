@@ -1,0 +1,13 @@
+.catalog__text__top {
+  background-color: #ccc;
+}
+.rating::before {
+  content: "";
+  background-image: url(../img/star-icon.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-size: contain;
+  padding: 40px;
+}
