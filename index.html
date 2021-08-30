@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Movies Catalog</title>
+</head>
+<body>
+  <!-- <h1 class="visually-hidden">Movies Catalog</h1> -->
+<section class="movies-catalog">
+  <div class="container">
+    <h1 class="text-center mt-5 mb-2">Movies Catalog</h1>
+    <div class="row">
+      <!-- FORM  -->
+      <div class="col-4">
+        <form action="https://echo.htmlacademy.ru/">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="ave" name="movie-name" aria-label="Movie Name">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="5" name="movie-number" aria-label="Movie Number">
+          </div>
+
+          <select class="form-select mb-3" aria-label="Movie Names">
+            <option selected>All</option>
+            <option value="1">Avengers: Infinity War</option>
+            <option value="2">The Avengers</option>
+            <option value="3">Big Boss</option>
+          </select>
+
+          <select class="form-select mb-3" aria-label="Movie Ratings">
+            <option selected>Rating (high to low)</option>
+            <option value="1">High</option>
+            <option value="2">Medium</option>
+            <option value="3">Low</option>
+          </select>
+
+          <div class="d-grid gap-2">
+            <button type="button" class="btn  btn-primary">Search</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- CATALOG  -->
+      <div class="col-8">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis veniam alias porro nisi enim voluptatibus, suscipit quasi delectus nemo possimus similique natus adipisci maxime qui. Est iste ipsa qui?lorem100
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
